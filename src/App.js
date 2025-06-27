@@ -7,9 +7,10 @@ function App() {
 
   return (
     <div>
-      <h1>Compteur React</h1>
+      <h1>Compteur Reacts</h1>
       <p>Tu as cliqué {count} fois</p>
       <button onClick={() => setCount(count + 1)}>Clique moi !</button>
+	  <button onClick={() => setCount(count + 1)}>Clique Jour !</button>
     </div>
   );
 }
